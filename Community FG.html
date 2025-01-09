@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Forum FG</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #00BFFF, #87CEFA);
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    #kontainerAtas {
+      color: black;
+      background-color: lightgreen;
+      padding: 20px;
+      border: 1px solid lightgreen;
+      border-bottom-left-radius: 150px;
+      border-bottom-right-radius: 150px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 100%;
+    }
+  
+    #kontainerUtama {
+      color: black;
+      background-color: whitesmoke;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      width: 100%;
+    }
+  
+    #kontainerPengumumanAdmin {
+      color: black;
+      background-color: cyan;
+      padding: 20px;
+      margin-top: 80px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      font-size: 24px;
+      width: 100%;
+    }
+  
+    #tablePengumumanAdmin {
+      border: 2px solid black;
+      margin-top: 35px;
+      border-collapse: collapse; /* Membuat border menyatu */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      width: 100%;
+    }
+    
+    #tablePengumumanAdmin th, #tablePengumumanAdmin td {
+      padding: 10px;
+      text-align: left;
+    }
+    
+    #tablePengumumanAdmin th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  
+    #fotoStatusKomunitasSekarang {
+      color: black;
+      background-color: cyan;
+      margin-top: 75px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      width: 100%;
+    }
+  
+  #prankIklan {
+    width: 300px;
+    heigth: 65px;
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 7px;
+  }
+  
+  #tombolUnduh {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+  
+    #fotoKomunitasSekarang {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  
+    #fotoKomunitas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    #tempatMasuk {
+      color: black;
+      background-color: lightgreen;
+      margin-top: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+  
+    #judul {
+      margin-top: 15px;
+      text-align: center;
+    }
+  
+    #tombolJoin {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 50%; /* Mengatur lebar tombol agar mudah terpusat */
+      max-width: 200px;
+    }
+
+    #tombolJoin:hover {
+      background-color: #45a049;
+    }
+  
+  #linkKomunitas {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  </style>
+</head>
+<body>
+  <div id="kontainerAtas">
+    SELAMAT datang! anda telah memasuki forum resmi<br>
+    dari komunitas FG
+  </div>
+  <div id="kontainerUtama">
+    <h3>
+      <big>
+        Tambahan
+      </big>
+    </h3>
+    <p>
+      Komunitas kami sudah berdiri sejak tahun 2024<br>
+      Dan pada bulan 5, untuk tanggal pastinya saya lupa :v<br>
+      Dan juga komunitas kami memiliki beberapa admin,<br>
+      Jadi singkatnya kami sedang mencari berbagai<br>
+      Anggota yang siap bergabung untuk membuat komunitas<br>
+      Ini tetap berlanjut, apakah anda berminat?<br>
+      Kalau anda ingin bergabung bisa terus scroll ke bawah<br>
+      Kalau tidak bisa/mau, saya persilahkan keluar :)
+    </p>
+  </div>
+  <div id="kontainerPengumumanAdmin">
+    <big>
+      Penjelasan admin dan pendiri
+    </big>
+  </div>
+  <table id="tablePengumumanAdmin">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Nama</th>
+        <th>Posisi awal</th>
+        <th>Posisi sekarang</th>
+        <th>Status sekarang</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Kuznetsov</td>
+        <td>Owner</td>
+        <td>Owner</td>
+        <td>Ada</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Alira</td>
+        <td>Pendiri</td>
+        <td>Pendiri</td>
+        <td>Ada</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Reina</td>
+        <td>Pendiri</td>
+        <td>Pendiri</td>
+        <td>Ada</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Wildmac</td>
+        <td>Pendiri</td>
+        <td>Pendiri</td>
+        <td>Keluar</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Ryan/E VE</td>
+        <td>Pendiri</td>
+        <td>Pendiri</td>
+        <td>Ada</td>
+      </tr>
+    </tbody>
+  </table>
+  <div id="fotoStatusKomunitasSekarang">
+    <h3 id="fotoKomunitasSekarang">
+      Foto komunitas sekarang
+    </h3>
+    <div id="prankIklan">
+      <p>
+        AD
+      </p>
+      <div id="tombolUnduh">
+        unduh
+      </div>
+    </div>
+    <p>
+      Jika kamu ingin melihat foto komunitas sekarang<br>
+      maka ini adalah fotonya (terakhir dikirim 08-01-2025)
+    </p>
+    <img src="/Penyimpanan%20internal/DCIM/Screenshots/Screenshot_0250108_084905_WhatsApp.jpg" alt="Foto eror :(">
+  </div>
+  <div id="tempatMasuk">
+    <h3 id="judul">
+      Tempat masuk komunitas
+    </h3>
+    <p id="keterangan">
+      Pakai tombol itu untuk masuk, kalau eror<br>
+      pakai tombol di bawah
+    </p>
+    <button id="tombolJoin" onclick="joinKomunitas()">
+      Join Komunitas
+    </button>
+    <p style="margin-top: 10px;">
+      Atau klik tombol di bawah untuk langsung bergabung ke aplikasi WhatsApp:
+    </p>
+    <button id="tombolJoin" onclick="openWhatsApp()">
+      Join dengan WhatsApp
+    </button>
+    <p>
+      <u>Jika tetap eror kamu bisa menyalin link berikut:<br>
+      Lalu tempel di whatsapp-mu</u><br>
+      <mark>https://chat.whatsapp.com/<br>
+      EFfq50aDMom7akoWVp1slQ</mark>
+    </p>
+  </div>
+  <footer id="bawah">
+    <p>
+      ©Copyright Kuznetsov. Semuanya<br>
+      dilindungi oleh undang-undang
+    </p>
+  </footer>
+  
+  <!--script utama-->
+  <script>
+    function joinKomunitas() {
+      window.open("https://chat.whatsapp.com/EFfq50aDMom7akoWVp1slQ", "_blank");
+    }
+
+    function openWhatsApp() {
+      window.location.href = "https://chat.whatsapp.com/EFfq50aDMom7akoWVp1slQ";
+    }
+  </script>
+</body>
+</html>
